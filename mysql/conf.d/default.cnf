@@ -1,0 +1,4 @@
+[mysqld]
+max_allowed_packet=256M
+default_authentication_plugin=mysql_native_password
+collation_server=utf8mb4_bin

@@ -1,0 +1,16 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.sortImports": true
+  },
+  // module.exports とかに表示される警告を抑制する
+  "javascript.suggestionActions.enabled": false,
+  // default のフォーマッターを prettier にする
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#555555"
+  },
+  "[prisma]": { "editor.defaultFormatter": "Prisma.prisma" }
+}
