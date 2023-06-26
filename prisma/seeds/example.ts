@@ -1,7 +1,7 @@
 import { PrismaClient } from "@prisma/client"
 
 export const example = async (prisma: PrismaClient) => {
-  await prisma.example.deleteMany()
+  await prisma.$queryRawUnsafe("truncate table Example")
   await prisma.example.createMany({
     data: [
       {
