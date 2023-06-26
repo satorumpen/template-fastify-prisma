@@ -4,7 +4,7 @@
   "scripts": {
     "start": "vite-node src/server.ts",
     "dev": "vite-node --watch src/server.ts",
-    "test": "vitest --run"
+    "test": "vitest --run --single-thread"
   },
   "prisma": {
     "seed": "vite-node prisma/seed.ts -- exec"
